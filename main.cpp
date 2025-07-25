@@ -484,7 +484,7 @@ phoneCheck:
 	cout << "\t\t\t\t\tEnter Contact Number: ";
 	cin >> Contact;
 
-	if (Contact.length() != 11 || Contact.length() > 11)
+	if (Contact.length() != 10 || Contact.length() > 10)
 	{
 		cout << endl;
 		cout << "\t\t\t\t\tEnter a Valid 11 digit Mobile Phone Number!" << endl << endl;
