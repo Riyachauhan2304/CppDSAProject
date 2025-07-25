@@ -307,21 +307,21 @@ string SeatChoose()
 
 void iniTrain()
 {
-	availTrains[0].TName = "Shalimar Express";
+	availTrains[0].TName = "Mumbai Express";
 	availTrains[0].TID = "SHE753";
-	availTrains[0].TSource = "Karachi";
-	availTrains[0].TDest = "Lahore";
-	availTrains[0].TDate = "24-Dec-2020";
+	availTrains[0].TSource = "Mumbai";
+	availTrains[0].TDest = "Pune";
+	availTrains[0].TDate = "24-Dec-2025";
 	availTrains[0].arriveTime = "20:00 (8:00 PM)";
 	availTrains[0].departTime = "16:40 (4:40 PM)";
 	availTrains[0].TClasses = "Economy, AC Lower, AC Business";
 	availTrains[0].TSeats = 30;
 
-	availTrains[1].TName = "Karakoram Express";
-	availTrains[1].TID = "KKE694";
-	availTrains[1].TSource = "Karachi";
-	availTrains[1].TDest = "Faisalabad";
-	availTrains[1].TDate = "26-Dec-2020";
+	availTrains[1].TName = " Neova Express";
+	availTrains[1].TID = "NNE694";
+	availTrains[1].TSource = "Delhi";
+	availTrains[1].TDest = "Mumbai";
+	availTrains[1].TDate = "26-Dec-2026";
 	availTrains[1].arriveTime = "08:00 (8:00 AM)";
 	availTrains[1].departTime = "04:40 (4:40 AM)";
 	availTrains[1].TClasses = "Economy, AC Lower, AC Business";
@@ -329,29 +329,29 @@ void iniTrain()
 
 	availTrains[2].TName = "Green Line Express";
 	availTrains[2].TID = "GLE400";
-	availTrains[2].TSource = "Karachi";
-	availTrains[2].TDest = "Islamabad";
-	availTrains[2].TDate = "05-Jan-2021";
+	availTrains[2].TSource = "Banglore";
+	availTrains[2].TDest = "Hyderabad";
+	availTrains[2].TDate = "05-Jan-2025";
 	availTrains[2].arriveTime = "12:00 (12:00 PM)";
 	availTrains[2].departTime = "10:00 (10:00 AM)";
 	availTrains[2].TClasses = "Economy, AC Lower, AC Business";
 	availTrains[2].TSeats = 30;
 
 
-	availTrains[3].TName = "Tezgam Express";
-	availTrains[3].TID = "TEZ123";
-	availTrains[3].TSource = "Karachi";
-	availTrains[3].TDest = "Faisalabad";
-	availTrains[3].TDate = "01-Jan-2021";
+	availTrains[3].TName = "Indra Express";
+	availTrains[3].TID = "IIEZ123";
+	availTrains[3].TSource = "Punjab";
+	availTrains[3].TDest = "Haryana";
+	availTrains[3].TDate = "01-Jan-2026";
 	availTrains[3].arriveTime = "15:00 (03:00 PM)";
 	availTrains[3].departTime = "9:00 (09:00 AM)";
 	availTrains[3].TClasses = "Economy, AC Lower, AC Business";
 	availTrains[3].TSeats = 30;
 
-	availTrains[4].TName = "Karachi Express";
+	availTrains[4].TName = "IndraC2 Express";
 	availTrains[4].TID = "KHE123";
-	availTrains[4].TSource = "Karachi";
-	availTrains[4].TDest = "Lahore";
+	availTrains[4].TSource = "Gujrat";
+	availTrains[4].TDest = "Rajsthan";
 	availTrains[4].TDate = "31-Dec-2000";
 	availTrains[4].arriveTime = "12:00 (12:00 AM)";
 	availTrains[4].departTime = "12:00 (09:00 PM)";
