@@ -757,7 +757,7 @@ login:
 	cout << "\t\t\t\t\tEnter your Password: ";
 	cin >> password;
 
-	if (user == "ABDULLAH" && password == "ABDI123" || user == "FAZEEL" && password == "FAZ123")
+	if (user == "RIYA" && password == "RIY2345" )
 	{
 		cout << "\t\t\t\t\tLogged in Successfully!\n";
 		cin.clear();
@@ -803,8 +803,8 @@ relog:
 	cout << "\t\t\t\t\t WELCOME TO RAILWAY BOOKING SYSTEM!\n\n\n"; Sleep(300);
 	cout << "\n\n\t\t\t\t\t\tProject Prepared by:"; Sleep(400);
 	cout << "\n\n\t\t\t\t\t\t--------------------"; Sleep(500);
-	cout << "\n\n\t\t\t\t     Abdullah Abdul Wahid       02-134192-015"; Sleep(1000);
-	cout << "\n\n\t\t\t\t     Fazeel Zafar               02-134192-010"; Sleep(2000);
+	cout << "\n\n\t\t\t\t         RIYA CHAUHAN   23-23456-011\n    "; Sleep(1000);
+
 	cout << endl;
 	system("cls");
 log:
